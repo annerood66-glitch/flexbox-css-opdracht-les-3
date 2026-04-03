@@ -1,0 +1,93 @@
+ul {
+    list-style: none;
+    border: 2px solid blue;
+}
+
+img {
+    width: 12px;
+    height: auto;
+}
+
+.navbar-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*align-items: flex-start;*/
+    gap: 5px;
+    flex: 1 1 250px;
+    border: 2px solid green;
+    min-width: 250px;
+    height: 100vh;
+}
+
+.logo {
+    border: 2px solid red;
+    display: flex;
+    gap: 10px;
+}
+
+.menu-wrapper {
+    border: 2px solid purple;
+}
+
+body {
+    display: flex;
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid orangered;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid darkolivegreen;
+    height: 300px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.header-wrapper {
+    border: 2px solid blueviolet;
+}
+
+.menu-lijst {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-lijst li {
+    display: flex;
+}
+
+.buttons-navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.buttons-navbar li button {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.amazing-titles {
+    border: 2px solid orangered;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 260px;
+    overflow: hidden;
+
+    }
+

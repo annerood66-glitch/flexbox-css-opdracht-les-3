@@ -1,0 +1,49 @@
+.navbar-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px dashed blueviolet;
+}
+
+.navbar-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 2px dashed blueviolet;
+}
+
+.navbar-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 2px dashed blueviolet;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-four {
+    display: flex;
+    flex-direction: row;
+    border: 2px dashed blueviolet;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navbar-four .div-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 2px dashed blue;
+}
+
+.navbar-five {
+    display: flex;
+    flex-direction: row;
+    border: 2px dashed blueviolet;
+    justify-content: space-between;
+    align-items: flex-end;
+}

@@ -1,6 +1,25 @@
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Introduction
+        etc.
+    5. Media queries
+ /*!///////////////////////!*/
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+body {
+    display: flex;
+}
+
 ul {
     list-style: none;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
 }
 
 img {
@@ -8,51 +27,53 @@ img {
     height: auto;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1800px;
+    /*border: 2px solid mediumvioletred;*/
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #293133;
+}
+
+footer p {
+    color: white;
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+
+/* ------------------------------- 3. Layout --------------------------------------- */
 .navbar-left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /*align-items: flex-start;*/
     gap: 5px;
     flex: 1 1 250px;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     min-width: 250px;
     height: 100vh;
-}
-
-.logo {
-    border: 2px solid red;
-    display: flex;
-    gap: 10px;
+    overflow: auto;
 }
 
 .menu-wrapper {
-    border: 2px solid purple;
+    /*border: 2px solid purple;*/
 }
 
-body {
-    display: flex;
-}
-
+/* --------------- 3.1 Reusables ----------------------- */
 .body-wrapper {
     display: flex;
     flex-direction: column;
-    border: 2px solid orangered;
-}
-
-.header-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid darkolivegreen;
-    height: 300px;
+    /*border: 2px solid orangered;*/
     width: 100%;
-    background-color: lightgrey;
-}
-
-.header-wrapper {
-    border: 2px solid blueviolet;
 }
 
 .menu-lijst {
@@ -69,25 +90,60 @@ body {
     flex-direction: column;
     gap: 5px;
 }
+
 .buttons-navbar li button {
     width: 100%;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
 .amazing-titles {
-    border: 2px solid orangered;
+    /*border: 2px solid orangered;*/
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     min-width: 260px;
+    max-width: 300px;
     overflow: hidden;
+    gap: 10px;
+}
 
-    }
+.prijs {
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    /*border: 2px solid hotpink;*/
+}
+
+.logo {
+    /*border: 2px solid red;*/
+    display: flex;
+    gap: 10px;
+}
+
+/* --------------- 3.2 Other --------------------------- */
+
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+
+/* --------------- 4.1 Header ------------------------- */
+.header-wrapper {
+    /*border: 2px solid blueviolet;*/
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid darkolivegreen;*/
+    height: 300px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+/* --------------- 4.2 Introduction.  ------------------- */
+
+
+/* ------------------------------- 5. Media queries ---------------------------------------- */
 
